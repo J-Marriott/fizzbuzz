@@ -8,6 +8,9 @@ describe 'Fizzbuzz' do
     expect(fizzbuzz(5)).to eq 'buzz'
   end
   it '15 equal to fizzbuzz' do
-    expect(fizbuzz(15)).to eq 'fizzbuzz'
+    expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  end
+  it '8 equal to 8' do
+    expect(fizzbuzz(8)).to eq 8
   end
 end
